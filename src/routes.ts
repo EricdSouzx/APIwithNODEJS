@@ -6,7 +6,7 @@ import { DeleteCustomerController } from './controllers/DeleteCustomerController
 export async function routes(fastify: FastifyInstance, options: FastifyPluginOptions) {
 
     fastify.get("/teste", async (request: FastifyRequest, reply: FastifyReply) => {
-        return { message: "Chamada GET rodando!" }
+        return { message: "Chamada GET rodando com sucesso!" }
     });
 
     fastify.post("/customer", async (request: FastifyRequest, reply: FastifyReply) => {
